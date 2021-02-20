@@ -1,3 +1,5 @@
+/**styling page**/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -14,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-/**also p font custamization**/
+/**DELETED multiple a,p lines**/
 p {font-size: 14px;
 }
 
@@ -28,12 +30,9 @@ p {font-size: 14px;
 .float-right {
     float: right;
     margin-left: 25px;
+
 }
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+
 }
 
 .screen-reader {
@@ -43,7 +42,15 @@ p {font-size: 14px;
     height: 1px;
     width: 1px;
     overflow: hidden;
+
+/**HEADERS STYLING**/
 /**missing header**/
+}
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
 }
 .header{
  padding: 18px; 
@@ -78,17 +85,7 @@ color: #ffffff;
     display: inline-block;
     margin-left: 25px;
 }
- 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-.hero {
+ .hero {
 
 
     height: 800px;
@@ -100,11 +97,13 @@ p {
 
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+
+
+
+
+/**|Benifits|**/
+
+/**Deleted blocks,was prevening benifit code from apearing**/
 
 .benefits {
     margin-right: 20px;
@@ -117,9 +116,6 @@ p {
     background-color: #2589bd;
 }
 
-/**|Benifits|**/
-
-/**Deleted blocks,was prevening benifit code from apearing**/
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
@@ -130,8 +126,32 @@ p {
     text-align: center;
 }
 
+.benefits img{
+
+    display: block;
+    margin: 10px auto;
+    max-width: 130px;
+}
+
+/**CONTENT**/
+/**added missing content lines,img and h2**/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.content img { max-height: 200px;
 
 
+}
+
+.content h2{
+margin-bottom: 20px;
+font-size: 35px;
+
+}
+
+/**
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -159,6 +179,10 @@ p {
     color: #ffffff;
 }
 
+
+
+
+ do not need these lines of code
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -185,6 +209,11 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
+
+/*footer**/
+
+
 
 .footer {
     padding: 30px;
