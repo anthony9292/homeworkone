@@ -8,6 +8,23 @@ body {
     background-color: #d9dcd6;
 }
 
+/**this line was missing*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/**also h6/p font custamization**/
+h6 {font-size: 14px;
+}
+
+/**missing flaots custamization fixed**/
+.float-left{
+
+    float: left;
+    margin-left: 25;
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
