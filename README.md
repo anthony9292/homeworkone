@@ -1,4 +1,2 @@
 # homeworkone
-first homework trying git hub changed some things
-our first repositoy 
-
+took me a long time to understand this but i finally completed the homework hooray me!!!
