@@ -14,17 +14,21 @@ a {
     text-decoration: none;
 }
 
-/**also h6/p font custamization**/
-h6 {font-size: 14px;
+/**also p font custamization**/
+p {font-size: 14px;
 }
 
 /**missing flaots custamization fixed**/
 .float-left{
 
     float: left;
-    margin-left: 25;
+    margin-left: 25px;
 }
 
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,6 +36,21 @@ h6 {font-size: 14px;
     color: #ffffff;
 }
 
+.screen-reader {
+    position:absolute;
+    left: -10000px;
+    top:auto;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+/**missing header**/
+
+.header{
+ padding: 18px; 
+ font
+}
+
+}
 .header h1 {
     display: inline-block;
     font-size: 48px;
