@@ -10,17 +10,18 @@ body {
     background-color: #d9dcd6;
 }
 
-/**this line was missing*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/**DELETED multiple a,p lines**/
 p {font-size: 16px;
 }
 
 /**missing flaots custamization fixed**/
+
+
+/** Floats**/
 .float-left {
 
     float: left;
@@ -32,8 +33,7 @@ p {font-size: 16px;
     margin-left: 25px;
 
 }
-
-
+/**screen-reader**/
 .screen-reader {
     position:absolute;
     left: -1000px;
@@ -41,10 +41,10 @@ p {font-size: 16px;
     height: 1px;
     width: 1px;
     overflow: hidden;
+}
 
 /**HEADERS STYLING**/
-/**missing header**/
-}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -79,6 +79,8 @@ p {font-size: 16px;
     display: inline-block;
     margin-left: 25px;
 }
+
+/**HERO**/
  .hero {
 
 
